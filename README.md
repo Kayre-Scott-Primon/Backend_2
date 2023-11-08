@@ -1,4 +1,6 @@
-﻿# Módulo Introdutório > Desenvolvimento Backend > Aula 2
+﻿# MBA Engenharia de Software USP
+
+# Módulo Introdutório > Desenvolvimento Backend > Aula 2
 
 ## Ambiente Python para desenvolvimento
 
@@ -116,24 +118,4 @@ localhost:8000
 Para acessar os dados
 ```
 localhost:8000/admin
-```
-
-## Rodando a API Produtos utilizando o framework FastAPI
-
-Acessar o diretório fastapi-produtos
-
-```
-cd /referencial/src/fastapi-produtos
-```
-
-Para instalar os pacotes necessários para rodar o servidor FastAPI
-
-```
-pip install fastapi uvicorn
-```
-
-Para executar o servidor FastAPI
-
-```
-uvicorn app:app --host 0.0.0.0 --port 8080 --reload
 ```
